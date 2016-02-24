@@ -1565,7 +1565,7 @@ angular.module('mm.foundation.progressbar', ['mm.foundation.transition'])
     };
 }])
 
-.directive('progress', function() {
+.directive('progressFoundation', function() {
     return {
         restrict: 'EA',
         replace: true,
@@ -1578,7 +1578,7 @@ angular.module('mm.foundation.progressbar', ['mm.foundation.transition'])
     };
 })
 
-.directive('bar', function() {
+.directive('barFoundation', function() {
     return {
         restrict: 'EA',
         replace: true,
@@ -1595,7 +1595,7 @@ angular.module('mm.foundation.progressbar', ['mm.foundation.transition'])
     };
 })
 
-.directive('progressbar', function() {
+.directive('progressbarFoundation', function() {
     return {
         restrict: 'EA',
         replace: true,
